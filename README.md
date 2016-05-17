@@ -36,6 +36,8 @@ This was later resolved by implementing the recommended PEC calculations provide
 
 Modularity, modularity, modularity. If I could look back and improve how I went about this project, I would look to highly modularize and cut down the amount of unnecessary code I've written.
 Only later had I realized I coding in the wrong manner and not using embedded C's preprocessor functionality would could have saved some code overhead.
+Also, with how my documentation turned out, I implemented the final documentation for submission to my team lead, but was very unhappy
+the way it looked. If I had a second chance, I would rework how the documentation file was to be formatted and documented. However, given the circumstances of my work deadline, I completed the task within a reasonable timeframe and my supervisor/team lead were more than happy with what I had accomplished.
 
 Overall, I was pretty satisfied the way things turned out. 
 I was able to deliver the final project code to my electrical team lead who was able to easily implement his battery algorithm strategies with minimal effort using my C function code.
