@@ -1,4 +1,4 @@
-# Battery Control Documentation
+# Battery Control
 
 # Introduction
 
