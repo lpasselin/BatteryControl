@@ -30,7 +30,7 @@ As a result, I developed high level modularity code for the TI 320F28377D board 
 Throughout my time at MARC, I used a variety of tools to debug and analyze my progress on the firmware side of things. I was privileged to use the oscilloscope and multimeters available to me.
 I used a Tektronix MDO3000 Mixed Domain Oscilloscope and a Fluke multimeter. These tools allowed me to test and debug the SPI signals and ensure I was properly transmitting channels through to 
 the various ICs used. It greatly helped me discover early on as to why I was unable to retrieve signals from the LTC3300 and LTC6804 ICs as there was improper PEC data parsing of the signals.
-This was later resolved by implementing the recommended PEC calculations provided by the datasheets and allowed for SPI communications to be verified on both ends of the system.
+This was later resolved by implementing the recommended PEC calculations provided by the datasheets and allowed for SPI communications to be verified on both ends of the system. In addition, the Code Composer Studio IDE helped visualize how the memory allocation was used and allowed me to allocate according to the amount of memory I had available to me (1MB Flash). 
 
 # Future work & Discussion
 
