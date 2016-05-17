@@ -10,7 +10,7 @@ I also take no claim in that if you were to copy this code and implement it into
 
 # Purpose
 
-Generally TI boards come with Simulink interfaces so that low level coding would be unnecessary for the project. However, due to how new the TI320F28377D development board was at the time, 
+Generally TI boards come with Simulink interfaces so that low level coding would be unnecessary for development. However, due to how new the TI320F28377D development board was at the time, 
 no Simulink interface was implemented as of yet. As a result, I was tasked to creating a 'high-level' interface for the board so that my team could implement high level battery balancing strategies to the
 battery modules. In our specific case, we were interested in balancing 18650 batteries tied to the DC2100A board.
 
