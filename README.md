@@ -44,4 +44,4 @@ the way it was handled. If I had a second chance, I would rework how the documen
 Overall, I was pretty satisfied how things turned out. 
 I was able to deliver the final project code to my electrical team lead who was able to easily implement his battery algorithm strategies with minimal effort using my functional C code.
 In addition to all that, I was able to learn, develop, and implement an embedded solution on my own, from initial code configuration to hardware oscilloscope probe debugging & testing.
-It gave me great insight as to how problems were to be tackled from a software perspective and hardware perspective, meeting both code compilation standards and hardware limitations of my constrained system.
+It gave me great insight as to how problems were to be tackled from a software and hardware perspective, meeting both code compilation standards and hardware limitations for my constrained system.
