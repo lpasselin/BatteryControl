@@ -2,7 +2,7 @@
 
 # Introduction
 
-Over my short 4 month work term at the MARC (McMaster University Automotive Resource Centre), I was tasked to interface a battery control system amongst different ICs.
+Over my short 4 month work term at the MARC (McMaster University Automotive Resource Centre), I was tasked to interface a battery control system among different ICs (integrated circuits).
 More specifically, I was tasked to interface the Linear DC2100A  with the Texas Instruments TMS320F28377D development board via SPI (serial peripheral interface).
 I had no previous experience in this field of embedded programming before and thought it would be a great way for me to learn and expose myself to the embedded world.
 As a disclaimer, I take no claim that this project is optimal in how I implemented it and that I treated it as a learning experience while meeting deadlines throughout the term.
@@ -19,7 +19,7 @@ battery modules. In our specific case, we were interested in balancing 18650 bat
 The purpose of my firmware design was to set up the required registries and code functionality for my colleague to implement high level battery balancing algorithms.
 The firmware consisted of SPI bus communications from the TMS320F28377D to the LTC3300 and LTC6804 ICs. In order for the TI chip to communicate, specific SPI signals 
 were generated depending on the type of balancing algorithm wanted. In our case, we were most interested in using the LTC3300 chips since they would allow for active battery balancing throughout
-the batteries. The LTC3300 chips would require a special set of SPI instructions and PEC redundancy check signal protocols in order for the chip to implement correctly work. 
+the batteries. The LTC3300 chips would require a special set of SPI instructions and PEC (packet error code) redundancy checks in order for the chip to correctly operate. 
 
 My initial approach to the SPI bus communication between ICs was to consistently poll data across the bus and IC to ensure IC compatibility. Eventually however, 
 I was able to utilize timer interrupts which would allow for more efficient hardware utilization and effectively implement battery balancing strategies and battery status checks in parallel.
