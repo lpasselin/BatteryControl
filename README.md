@@ -34,7 +34,7 @@ This was later resolved by implementing the recommended PEC calculations provide
 
 # Future work & Discussion
 
-Modularity, modularity, modularity. If I could look back and improve how I went about this project, I would look to highly modularize and cut down the amount of unnecessary code I've written.
+Modularity, modularity, modularity. If I could look back and improve how I went about this project, I would look to modularize and cut down the amount of unnecessary code I've written.
 Only later had I realized I coding in the wrong manner and not using embedded C's preprocessor functionality would could have saved some code overhead.
 Also, with how my documentation turned out, I wrote the final documentation file for my team lead, but was very unhappy
 the way it was handled. If I had a second chance, I would rework how the documentation file was to be formatted and documented. However, given the circumstances of my work deadline, I completed the task within a reasonable timeframe and my supervisor/team lead was more than happy with what I had accomplished.
