@@ -32,6 +32,8 @@ The Tektronix MDO3000 Mixed Domain Oscilloscope and Fluke multimeter were my too
 the various ICs used. It greatly helped me discover early on as to why I was unable to retrieve signals from the LTC3300 and LTC6804 ICs as there was improper PEC data parsing of the signals.
 This was later resolved by implementing the recommended PEC calculations provided by the datasheets and allowed for SPI communications to be verified on both ends of the system. In addition, the Code Composer Studio IDE helped visualize how memory allocation was used and allowed me to allocate according to the amount of memory I had available (1MB Flash). 
 
+![Oscilloscope Image](BatteryControl/Oscilloscope Images/tek00012.png)
+
 # Future work & Discussion
 
 Modularity, modularity, modularity. If I could look back and improve how I went about this project, I would look to modularize and cut down the amount of unnecessary code I've written.
